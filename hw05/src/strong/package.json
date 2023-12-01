@@ -1,0 +1,14 @@
+{
+  "name": "dd1c077f2d85eb47",
+  "main": "dd1c077f2d85eb47@18.js",
+  "version": "18.0.0",
+  "homepage": "https://observablehq.com/d/dd1c077f2d85eb47",
+  "author": {
+    "name": "Mina's Workspace",
+    "url": "https://observablehq.com/@mina4-ws"
+  },
+  "type": "module",
+  "peerDependencies": {
+    "@observablehq/runtime": "4 - 5"
+  }
+}
