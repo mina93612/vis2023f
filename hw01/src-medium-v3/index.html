@@ -186,12 +186,8 @@
             .append("td")
             .html(function (d, i) {
                 if ( i == 4 && d != 'GitHub 帳號' ) {
-                    //隨機產生圖片：https://www.ugm.com.tw/modules/tad_book3/html.php?tbdsn=877
-                    const timestamp = Date.now();
-                    const imageSource = 'https://picsum.photos/200/300/?random&' + timestamp;
-        
-                    return '<img src="' + imageSource + '">' +
-                        '<hr><a href="https://github.com/' + d + '/vis2023f/" target="_blank">' + d + '</a>';
+                    const imageSource = 'https://raw.githubusercontent.com/mina93612/vis2023f/main/hw00/me.jpg';
+                    return '<img src="' + imageSource + '">' + '<hr><a href="https://github.com/' + d + '/vis2023f/" target="_blank">' + d + '</a>';
                 }
                 else if ( i == 0 || i == 2 || isNaN(d)) {
                     return d;
